@@ -1,6 +1,4 @@
-Recursive digit sum Hacker rank
-
-
+# problem link: https://www.hackerrank.com/challenges/recursive-digit-sum/copy-from/177148350
 #!/bin/python3
 
 import math
