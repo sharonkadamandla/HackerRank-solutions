@@ -1,0 +1,21 @@
+Recursive digit sum Hacker rank
+
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the superDigit function below.
+
+if __name__ == '__main__':
+    n, k=input().split();s=sum(int(i) for i in n);s=s*int(k)
+    while s>10:
+        n=s;s=0
+        while n>0:
+            s=s+(n%10)
+            n=n//10
+    print(s)
